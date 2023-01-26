@@ -1,0 +1,14 @@
+html,body{
+    text-align:center;
+    
+}
+#header{
+    margin : 5rem;
+}
+.city{
+    margin : 2rem;
+    text-align: center;
+}
+#footer{
+    margin:3rem;
+}

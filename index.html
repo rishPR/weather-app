@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <section class="city">
+        <div class="container">
+            <input type="text" placeholder="Enter city name" class="citynam">
+            <button>Submit</button>
+        </div>
+    </section>
+    <!--Header section-->
+    <section id = "header">
+        <div class = "container">
+            <div class="row">
+                <div class = "col-lg-6 col-sm-12">
+                    <h2> 
+                        Today
+                    </h2>
+                    <h4 class="today_temp">
+                        30 
+                    </h4>
+                    <p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Location
+                    </p>
+                </div>
+            
+                <div class = "col-lg-6 col-sm-12">
+                    <h2> 
+                        Tomorrow
+                    </h2>
+                    <h4>
+                        30 
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id ="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 aq">
+                    <h4 >Humidity</h4>
+                    <p class = "humid">50%</p>
+                </div>
+                <div class="col-lg-4 cop">
+                    <h4 >Pressure</h4>
+                    <p class="pressure">60%</p>
+
+                </div>
+                <div class="col-lg-4 ws">
+                    <h4 >Wind</h4>
+                    <p class = "wind">
+                        5.4  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
