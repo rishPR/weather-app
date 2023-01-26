@@ -8,7 +8,7 @@ document.querySelector("button").addEventListener("click",function(){
     fetch('https://api.openweathermap.org/data/2.5/weather?q='+city_name.value+'&appid='+API_keys)
      .then(response => response.json())
      .then(data =>{
-        city_name.innerHTML = data['name'];
+        document.querySelector(".location").textContent = data['name'];
         temp.innerHTML = data['main']['temp'];
         humidity.innerHTML = data['main']['humidity'];
         wind.innerHTML =data['wind']['speed'];
