@@ -1,7 +1,12 @@
 html,body{
     text-align:center;
+    background-image: url("beautiful-sky-with-mountains-distance.jpg");
+    background-size:cover;                     
+    background-repeat:no-repeat;
+    background-position: center center;   
     
 }
+
 #header{
     margin : 5rem;
 }
@@ -9,6 +14,6 @@ html,body{
     margin : 2rem;
     text-align: center;
 }
-#footer{
-    margin:3rem;
+.card{
+    margin: 1rem;
 }

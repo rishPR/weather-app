@@ -20,16 +20,16 @@
     <!--Header section-->
     <section id = "header">
         <div class = "container">
-            <div class="row">
-                <div class = "col-lg-6 col-sm-12">
+            <div class="row ">
+                <div class = "col-lg-6 col-sm-12 today">
                     <h2> 
                         Today
                     </h2>
                     <h4 class="today_temp">
                         -- 
                     </h4>
-                    <p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i>
-                        Location
+                    <p class="location">
+                        <i class="fas-solid fal-location-dot"></i>Location
                     </p>
                 </div>
             
@@ -50,19 +50,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 aq">
-                    <h4 >Humidity</h4>
-                    <p class = "humid">--</p>
+                    <div class="card bg-secondary">
+                        <h4 class="card-title">Humidity</h4>
+                        <p class = "humid card-body">--</p>
+                    </div>
                 </div>
                 <div class="col-lg-4 cop">
-                    <h4 >Pressure</h4>
-                    <p class="pressure">--</p>
+                  <div class="card bg-success ">
+                    <h4 class="card-title">Pressure</h4>
+                    <p class="pressure card-body">--</p>
+                  </div>
 
                 </div>
                 <div class="col-lg-4 ws">
-                    <h4 >Wind</h4>
-                    <p class = "wind">
-                        --  
-                    </p>
+                  <div class="card bg-info">
+                    <!--<img src="wind.png" class="card-img-top" alt="..."> -->
+                    <h4 class="card-title">Wind</h4>
+                    <p class = "wind card-body">--</p>
+                  </div>
                 </div>
             </div>
         </div>
