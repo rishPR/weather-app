@@ -1,14 +1,20 @@
 html,body{
-    text-align:center;
-    background-image: url("beautiful-sky-with-mountains-distance.jpg");
+    
+    background-image: url("sky.jpg");
     background-size:cover;                     
     background-repeat:no-repeat;
     background-position: center center;   
     
 }
-
+h5{
+    font-size: xxx-large;
+}
 #header{
-    margin : 5rem;
+    margin : 2rem 2rem 2rem 2rem;
+}
+#footer{
+    color: whitesmoke;
+    text-align: center;
 }
 .city{
     margin : 2rem;
@@ -16,4 +22,17 @@ html,body{
 }
 .card{
     margin: 1rem;
+    padding-top: 1rem;
+}
+.card-body{
+    font-family: 'Anton', sans-serif;
+    font-size:xx-large;
+}
+.today{
+    padding: 0rem;
+    font-size: xxx-large;
+    
+}
+.card-img{
+    width: 5rem;
 }
